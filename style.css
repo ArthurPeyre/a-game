@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background-color: rgb(52, 52, 52);
+    height: 100vh;
+}
+
+#world {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+
+#player {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    bottom: 0;
+    left: calc(50% - 10px);
+}
